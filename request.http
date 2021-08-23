@@ -1,0 +1,35 @@
+
+POST http://localhost:5000/login HTTP/1.1
+content-type: application/json
+{
+    softwareId: “PAYINSTORE20”,
+    email: “fishsticks@fivestars.com”,
+    password: “password”
+}
+
+# http://localhost:5000/devices
+
+# http://localhost:5000/connect
+
+# http://localhost:5000/connect
+
+# http://localhost:5000/pay
+# { 
+#     amount: 21.50, 
+#     paymentType: PaymentTypes.CASH,
+#     transactionTotalUid: null,
+#     options: { manualTransaction: true }
+# }
+
+# http://localhost:5000/pay
+# { 
+#     amount: 21.50, 
+#     paymentType: PaymentTypes.CARD,
+#     transactionTotalUid: null,
+#     options: { manualTransaction: true }
+# }
+
+# http://localhost:5000/refund
+# {
+#     transactionTotalUid: null
+# }
